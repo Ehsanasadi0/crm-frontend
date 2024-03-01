@@ -1,0 +1,196 @@
+
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+code{
+  font-family:source-code-pro,Menlo,Monaco,Consolas,Courier New,monospace
+}
+@font-face{
+  font-family:IRANSans-web;
+  src:url(../public/media/IRANSans-Bold-web.c262ecac.eot);
+  src:url(../public/media/IRANSans-Bold-web.c262ecac.eot?#iefix) format("eot"),url(../public/media/IRANSans-Bold-web.ff09ae29.woff) format("woff"),url(../public/media/IRANSans-Bold-web.28bd707e.ttf) format("ttf");
+  font-weight:700
+}
+@font-face{
+  font-family:IRANSans-web;
+  src:url(../public/media/IRANSans-Medium-web.a56979af.eot);
+  src:url(../public/media/IRANSans-Medium-web.a56979af.eot?#iefix) format("eot"),url(../public/media/IRANSans-Medium-web.40c16fc5.woff) format("woff"),url(../public/media/IRANSans-Medium-web.429db91d.ttf) format("ttf");
+  font-weight:500
+}
+@font-face{
+  font-family:IRANSans-web;
+  src:url(../public/media/IRANSans-UltraLight-web.bb0a2fa6.eot);
+  src:url(../public/media/IRANSans-UltraLight-web.bb0a2fa6.eot?#iefix) format("eot"),url(../public/media/IRANSans-UltraLight-web.0c77febb.woff) format("woff"),url(../public/media/IRANSans-UltraLight-web.a6525ec1.ttf) format("ttf");
+  font-weight:200
+}
+@font-face{
+  font-family:IRANSans-web;
+  src:url(../public/media/IRANSans-Light-web.6481326d.eot);
+  src:url(../public/media/IRANSans-Light-web.6481326d.eot?#iefix) format("eot"),url(../public/media/IRANSans-Light-web.76bb19b9.woff) format("woff"),url(../public/media/IRANSans-Light-web.c05bd20d.ttf) format("ttf");
+  font-weight:300
+}
+@font-face{
+  font-family:IRANSans-web;
+  src:url(../public/media/IRANSans-web.8e0f0495.eot);
+  src:url(../public/media/IRANSans-web.8e0f0495.eot?#iefix) format("eot"),url(../public/media/IRANSans-web.291d7f6a.woff) format("woff"),url(../public/media/IRANSans-web.77425e1f.ttf) format("ttf");
+  font-weight:400
+}
+body,button,div,h1,h2,h3,input,label,legend,li,option,p,select,span,td,text,textarea,th{
+  font-family:IRANSans-web!important;
+  font-size:9pt
+}
+button:focus,div:focus,input:focus,select:focus,textarea:focus{
+  outline:none
+}
+.barSelect,.barSelect:focus{
+  background-color:unset
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+  font-size:1vmax
+}
+#root,body,html{
+  height:100%;
+  width:100%;
+  direction:rtl
+}
+::-webkit-scrollbar{
+  width:7px
+}
+::-webkit-scrollbar-thumb{
+  background:rgba(44,44,44,.466)
+}
+::-webkit-scrollbar-track{
+  box-shadow:inset 0 0 5px hsla(0,0%,100%,.808);
+  background:hsla(0,0%,44.7%,.1)
+}
+::-webkit-scrollbar-thumb:hover{
+  background:rgba(15,15,15,.829)
+}
+.barButton{
+  border-radius:50%;
+  cursor:pointer;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  width:3vmax;
+  height:3vmax
+}
+.barButton:hover{
+  background-color:hsla(0,0%,100%,.2)
+}
+.snack-message{
+  flex:1 1
+}
+.snack-root{
+  display:flex;
+  flex-direction:row
+}
+::-webkit-input-placeholder{
+  color:#bbd;
+  font-weight:100;
+  font-size:18px;
+  opacity:1
+}
+::-moz-placeholder{
+  color:#bbd;
+  font-weight:100;
+  font-size:18px;
+  opacity:1
+}
+:-ms-input-placeholder{
+  color:#bbd;
+  font-weight:100;
+  font-size:18px;
+  opacity:1
+}
+::-ms-input-placeholder{
+  color:#bbd;
+  font-weight:100;
+  font-size:18px;
+  opacity:1
+}
+::placeholder{
+  color:#bbd;
+  font-weight:100;
+  font-size:18px;
+  opacity:1
+}
+input{
+  font-size:14px;
+  flex:0.7 1;
+  border:none;
+  border-bottom:1px solid #434a52;
+  border-radius:0;
+  box-shadow:none;
+  outline:none;
+  font-size:12px;
+  padding:8px 5px;
+  text-overflow:ellipsis!important
+}
+.input::-webkit-input-placeholder{
+  font-size:12px
+}
+.input:-moz-placeholder,.input::-moz-placeholder{
+  font-size:12px
+}
+.input:-ms-input-placeholder{
+  font-size:12px
+}
+.rec-slider-container{
+  margin:0!important
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+
+}
+.cardcc {
+
+  width: 500px;
+  height: 500px;
+  background-color:rgb(83, 44, 15);
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
